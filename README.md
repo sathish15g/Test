@@ -5,50 +5,128 @@
 ABS_STATUS | X |  |  | X | Indicates whether the anti-lock brake system is currently activated.<br>An anti-lock braking system (ABS) is a safety anti-skid braking system used on aircraft and on land vehicles, such as cars, motorcycles, trucks, and buses | | Enum(OffOnStatus)|
 
 
-| aaa | this is really long so I just   | ccc |
-|     | continue down here              |     |
-|.....|.................................|.....|
-| aaa | bbb                             | ccc |
-|.....|.................................|.....|
-| this spans 2 (not 3) rows and 2 cols || ccc |
-|                                      ||.....|
-|                                      || ccc |
-|.......................................|.....|
-| aaa | bbb                             | ccc |
-|.......................................|.....|
-| aaa | - item one                      | ccc |
-|     | - item two                      |     |
 
+<style>
+.blur-non-hovered body {
+  background: #fafafa;
+  color: #444;
+  font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
+  text-shadow: 0 1px 0 #fff;
+}
 
+.blur-non-hovered strong {
+  font-weight: bold;
+}
 
-|..........|:........:|..........|
-|    right |  center  |  center  |
-|---------:|:---------|:--------:|
-|    right | left     |  center  |
-|..........|..........|..........|
-|    right | left     |  center  |
-|:........:|.........:|:.........|
-|  center  |    right | left     |
-|..........|..........|..........|
-|    right | left     |  center  |
+.blur-non-hovered em {
+  font-style: italic;
+}
 
+.blur-non-hovered table {
+  background: #f5f5f5;
+  border-collapse: separate;
+  box-shadow: inset 0 1px 0 #fff;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 30px auto;
+  text-align: left;
+  width: 800px;
+}
 
+.blur-non-hovered th {
+  background: linear-gradient(#777, #444);
+  border-left: 1px solid #555;
+  border-right: 1px solid #777;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #333;
+  box-shadow: inset 0 1px 0 #999;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  position: relative;
+  text-shadow: 0 1px 0 #000;
+}
 
-| heading |              heading 2              |
-|         |      sub head a      |  sub head b  |
-|---------|----------------------|--------------|
-| aaa     | this is still just   | ccc          |
-|         | a single row but I   |              |
-|         | talk too much        |              |
-|.........|......................|..............|
-| aaa     | bbb                  | ccc          |
-|.........|......................|..............|
-| this spans two rows and two    | ccc          |
-| columns                        |..............|
-|                                | ccc          |
-|.........|......................|..............|
-| aaa     | bbb                  | ccc          |
-|.........|......................|..............|
-| aaa     | - item one           | ccc          |
-|         | - item two           |              |
+.blur-non-hovered th:after {
+  background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+  content: '';
+  display: block;
+  height: 25%;
+  left: 0;
+  margin: 1px 0 0 0;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+.blur-non-hovered th:first-child {
+  border-left: 1px solid #777;
+  box-shadow: inset 1px 1px 0 #999;
+}
+
+.blur-non-hovered th:last-child {
+  box-shadow: inset -1px 1px 0 #999;
+}
+
+.blur-non-hovered td {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #e8e8e8;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 300ms;
+}
+
+.blur-non-hovered td:first-child {
+  box-shadow: inset 1px 0 0 #fff;
+}
+
+.blur-non-hovered td:last-child {
+  border-right: 1px solid #e8e8e8;
+  box-shadow: inset -1px 0 0 #fff;
+}
+
+.blur-non-hovered tr:nth-child(odd) td {
+  background: #f1f1f1;
+}
+
+.blur-non-hovered tr:last-of-type td {
+  box-shadow: inset 0 -1px 0 #fff;
+}
+
+.blur-non-hovered tr:last-of-type td:first-child {
+  box-shadow: inset 1px -1px 0 #fff;
+}
+
+.blur-non-hovered tr:last-of-type td:last-child {
+  box-shadow: inset -1px -1px 0 #fff;
+}
+
+.blur-non-hovered tbody:hover td {
+  color: transparent;
+  text-shadow: 0 0 3px #aaa;
+}
+
+.blur-non-hovered tbody:hover tr:hover td {
+  color: #444;
+  text-shadow: 0 1px 0 #fff;
+}
+</style>
+
+<div class="ox-hugo-table blur-non-hovered">
+<div></div>
+<div class="table-caption">
+  <span class="table-number">Table 13</span>:
+  Table where rows except the hovered-upon get blurred
+</div>
+
+| Last Name | First Name | Email                 | Due     | Web Site                   |
+|-----------|------------|-----------------------|---------|----------------------------|
+| Smith     | John       | jsmith@gmail.com      | $50.00  | <http://www.jsmith.com>    |
+| Bach      | Frank      | fbach@yahoo.com       | $50.00  | <http://www.frank.com>     |
+| Doe       | Jason      | jdoe@hotmail.com      | $100.00 | <http://www.jdoe.com>      |
+| Conway    | Tim        | tconway@earthlink.net | $50.00  | <http://www.timconway.com> |
+
+</div>
     
