@@ -21,22 +21,6 @@ ABS_STATUS | X |  |  | X | Indicates whether the anti-lock brake system is curre
 
 
 
-| aaa | this is really long so I just   | ccc |
-|     | continue down here              |     |
-|.....|.................................|.....|
-| aaa | bbb                             | ccc |
-|.....|.................................|.....|
-| this spans 2 (not 3) rows and 2 cols || ccc |
-|                                      ||.....|
-|                                      || ccc |
-|.......................................|.....|
-| aaa | bbb                             | ccc |
-|.......................................|.....|
-| aaa | - item one                      | ccc |
-|     | - item two                      |     |
-
-
-
 |..........|:........:|..........|
 |    right |  center  |  center  |
 |---------:|:---------|:--------:|
@@ -48,13 +32,6 @@ ABS_STATUS | X |  |  | X | Indicates whether the anti-lock brake system is curre
 |..........|..........|..........|
 |    right | left     |  center  |
 
-
-
-|            |   Small |  Large | 
-|============|---------|--------|
-| Salami	 |    8.99 |  10.99 |
-| Hawaii	 |    9.49 |  11.49 |
-| Margherita |    7.99 |   9.99 |
 
 
 | heading |              heading 2              |
